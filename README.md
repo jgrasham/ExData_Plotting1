@@ -1,5 +1,11 @@
 These assignment notes were taken from the Course Project 1 listing on Coursera: https://www.coursera.org/learn/exploratory-data-analysis/peer/ylVFo/course-project-1 
 
+Please see the plots attached to this github:
+    plot1.png, plot2.png, plot3.png, plot4.png
+    
+That were generated using the R code in this github:
+    plot1.R, plot2.R, plot3.R, plot4.R
+
 ## Introduction
 
 This assignment uses data from
@@ -89,5 +95,3 @@ include the code that creates the PNG file.
 When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
-
-Please see the plots attached to this github (plot1.png, plot2.png, plot3.png, plot4.png)
