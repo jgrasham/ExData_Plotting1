@@ -35,7 +35,7 @@ quantile(pwr2$Sub_metering_3,na.rm=TRUE)
 # create plot3.png
 #
 plot.new()
-plot(pwr2$Sub_metering_1, type ="l", yaxt="n", xaxt="n", col="black", ylab="Energy sub metering",ylim=c(0,40))
+plot(pwr2$Sub_metering_1, type ="l", yaxt="n", xaxt="n", col="black", ylab="Energy sub metering",ylim=c(0,40),xlab=" ")
 lines(pwr2$Sub_metering_2, col="red")
 lines(pwr2$Sub_metering_3, col="blue")
 axis(1,c(1,1441,2880),c("Thu","Fri","Sat"))

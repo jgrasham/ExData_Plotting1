@@ -30,7 +30,7 @@ quantile(pwr2$Global_active_power,na.rm=TRUE)
 # create plot2.png
 #
 plot.new()
-plot(pwr2$Global_active_power, type ="l", yaxt="n", xaxt="n", col="black", ylab="Global Active Power (kilowatts)",ylim=c(0,6))
+plot(pwr2$Global_active_power, type ="l", yaxt="n", xaxt="n", col="black", ylab="Global Active Power (kilowatts)",ylim=c(0,8),xlab=" ")
 axis(1,c(1,1441,2880),c("Thu","Fri","Sat"))
 axis(2,c(0,2,4,6),c(0,2,4,6))
 dev.copy(png,file="plot2.png",width=480,height=480,units="px")

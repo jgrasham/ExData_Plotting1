@@ -37,7 +37,7 @@ par(mfrow=c(2,2),mar=c(4,4,2,1),cex=.6)
 #
 # plot one upper left
 #
-plot(pwr2$Global_active_power, type ="l", yaxt="n", xaxt="n", col="black", ylab="Global Active Power (kilowatts)",ylim=c(0,6))
+plot(pwr2$Global_active_power, type ="l", yaxt="n", xaxt="n", col="black", ylab="Global Active Power (kilowatts)",ylim=c(0,6),xlab=" ")
 axis(1,c(1,1441,2880),c("Thu","Fri","Sat"))
 axis(2,c(0,2,4,6),c(0,2,4,6))
 #
@@ -49,7 +49,7 @@ axis(2,c(234,238,242,246),c(234,238,242,246))
 #
 # plot three lower left
 #
-plot(pwr2$Sub_metering_1, type ="l", yaxt="n", xaxt="n", col="black", ylab="Energy sub metering",ylim=c(0,40))
+plot(pwr2$Sub_metering_1, type ="l", yaxt="n", xaxt="n", col="black", ylab="Energy sub metering",ylim=c(0,40),xlab=" ")
 lines(pwr2$Sub_metering_2, col="red")
 lines(pwr2$Sub_metering_3, col="blue")
 axis(1,c(1,1441,2880),c("Thu","Fri","Sat"))
@@ -59,7 +59,7 @@ legend("topright",bty="n",lty=1,col=c("black","red","blue"),legend=c("Sub meteri
 # plot four lower right
 # create plot4.png
 #
-plot(pwr2$Global_reactive_power, type ="l", yaxt="n", xaxt="n", col="black", ylab="Global_reactive_power,",ylim=c(0.0,0.5))
+plot(pwr2$Global_reactive_power, type ="l", yaxt="n", xaxt="n", col="black", ylab="Global_reactive_power,",ylim=c(0.0,0.5), xlab="datetime")
 axis(1,c(1,1441,2880),c("Thu","Fri","Sat"))
 axis(2,c(0.0,0.1,0.2,0.3,0.4,0.5),c(0.0,0.1,0.2,0.3,0.4,0.5))
 dev.copy(png,file="plot4.png",width=480,height=480,units="px")
