@@ -27,6 +27,7 @@ quantile(pwr2$Global_active_power,na.rm=TRUE)
 # color = "red", title = "Global Active Power"
 # x label = "Global Active Power (kilowatts)"
 # xaxis limit 0 and 6 ,yaxis limits 0 and 1200
+# create plot1.png
 #
 plot.new()
 hist(pwr2$Global_active_power, col="red", main="Global Active Power",xlab="Global Active Power (kilowatts)",xlim=c(0,6),ylim=c(0,1200))
