@@ -1,3 +1,5 @@
+These assignment notes were taken from the Course Project 1 listing on Coursera: https://www.coursera.org/learn/exploratory-data-analysis/peer/ylVFo/course-project-1 
+
 ## Introduction
 
 This assignment uses data from
@@ -88,27 +90,4 @@ When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
-
-The four plots that you will need to construct are shown below. 
-
-
-### Plot 1
-
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
-
-
-### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
-
-### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
-
-
-### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
-
+Please see the plots attached to this github (plot1.png, plot2.png, plot3.png, plot4.png)
