@@ -16,7 +16,7 @@ power$Date <- as.POSIXct(paste(power$Date, power$Time), format="%d/%m/%Y %H:%M:%
 pwr<-subset(power,Date >= "2007-02-01 00:00:00")
 pwr2<-subset(pwr,Date <= "2007-02-02 23:59:00")
 #
-# list some info about the pwr2 table and variable Global_active_power
+# list some info about the pwr2 table and variables Sub_Metering_1,2,3
 #
 head(pwr2)
 dim(pwr2)
@@ -28,9 +28,11 @@ summary(pwr2$Sub_metering_3)
 quantile(pwr2$Sub_metering_3,na.rm=TRUE)
 #
 # plot line chart with following settings:
-# color = "black",
-# y label = "Global Active Power (kilowatts)"
+# colors will be red and blue,
+# y label = "Energy sub metering"
 # xaxis values Thu,Fri,Sat
+# Add legend info
+# create plot3.png
 #
 plot.new()
 plot(pwr2$Sub_metering_1, type ="l", yaxt="n", xaxt="n", col="black", ylab="Energy sub metering",ylim=c(0,40))

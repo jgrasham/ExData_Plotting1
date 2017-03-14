@@ -27,6 +27,7 @@ quantile(pwr2$Global_active_power,na.rm=TRUE)
 # color = "black",
 # y label = "Global Active Power (kilowatts)"
 # xaxis values Thu,Fri,Sat
+# create plot2.png
 #
 plot.new()
 plot(pwr2$Global_active_power, type ="l", yaxt="n", xaxt="n", col="black", ylab="Global Active Power (kilowatts)",ylim=c(0,6))
