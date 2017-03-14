@@ -35,6 +35,7 @@ quantile(pwr2$Sub_metering_3,na.rm=TRUE)
 # create plot3.png
 #
 plot.new()
+par(cex=.6)
 plot(pwr2$Sub_metering_1, type ="l", yaxt="n", xaxt="n", col="black", ylab="Energy sub metering",ylim=c(0,40),xlab=" ")
 lines(pwr2$Sub_metering_2, col="red")
 lines(pwr2$Sub_metering_3, col="blue")
